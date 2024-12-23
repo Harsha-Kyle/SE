@@ -1,0 +1,23 @@
+Activity 10
+
+ git clone https://github.com/Harsha-Kyle/SE.git
+
+ cd se
+
+ git checkout -b add-new-feature
+
+(Add a new file locally)
+
+git add .
+
+git commit -m "Add multiply_numbers function and update README"
+
+
+
+ git push origin add-new-feature
+
+ git checkout main
+
+git pull origin main
+
+(now accept pull request on GitHub)
